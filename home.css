@@ -1,0 +1,83 @@
+
+header
+{
+	text-align:center;
+}
+
+body p
+{
+	font-family:Comic Sans MS;
+	font-size:16px;
+}
+figcaption
+{
+	float:bottom;`
+}
+nav.horizontal ul
+ {	
+	padding:2px;
+	font-family:andalus;
+	letter-spacing:3px;
+	line-height:3em;
+	list-style-type:none;
+	text-decoration:none;	
+	font-weight:bold;
+ }
+
+/*class:horizontal hyperlink styles*/ 
+nav.horizontal a
+{
+	color:hsla(255,255%,255%,1);
+	text-decoration:none;
+	font-size:22px;
+}
+
+/*class:horizontal list hover styles*/
+nav.horizontal li:hover
+{
+	text-transform:uppercase;
+	background-color:lightpink;
+	opacity:1;
+}
+
+/*class:horizontal hyperlink hover styles*/
+nav.horizontal a:hover
+{	
+	font-size:22px;
+	color:rgba(220,20,54,1);
+	text-decoration:underline;
+}
+footer
+{
+	background-color:rgb(176,224,230);
+	font-size:16px;
+	text-align:center;
+	font-style:normal;
+}
+
+/*class:horizontal list styles*/
+nav.horizontal li
+{	
+	background-color:rgb(220,20,54);
+
+}
+nav.horizontal {
+   width: 100%;
+   text-align:center;
+   	padding-left:190px;
+
+}
+
+nav.horizontal ul {
+   padding: 0px;
+   margin: 0px;
+}
+
+nav.horizontal li {
+   float: left;
+   list-style: none;
+   padding: 0px;
+   margin: 0px;
+   width: 20%;
+   text-align: center;
+}
